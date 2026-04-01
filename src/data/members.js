@@ -1,7 +1,7 @@
 export const members = [
   {
     slug: 'lefi-rachmad',
-    name: 'Lefi Rachmad',
+    name: 'MUHAMMAD LEFI RACHMAD',
     nim: '253140707111128',
     photo: 'https://ui-avatars.com/api/?name=Lefi+Rachmad&background=0D8ABC&color=fff&size=256',
     bio: 'Saya adalah mahasiswa semester dua yang antusias mempelajari pengembangan web dan selalu tertarik untuk memecahkan masalah melalui kode.',
