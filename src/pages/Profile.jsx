@@ -29,12 +29,12 @@ const Profile = () => {
         <div className="md:col-span-1 space-y-6">
           <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
             <h3 className="text-lg font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
-              <Contact className="w-5 h-5 text-indigo-500" /> Kontak
+              <Contact className="w-5 h-5 text-blue-500" /> Kontak
             </h3>
             <ul className="space-y-4">
               <li>
-                <a href={member.social.email} className="flex group items-center gap-3 text-slate-600 hover:text-indigo-600 transition-colors">
-                  <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-indigo-50 text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white transition-all">
+                <a href={member.social.email} className="flex group items-center gap-3 text-slate-600 hover:text-blue-600 transition-colors">
+                  <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all">
                     <AtSign className="w-4 h-4" />
                   </div>
                   <span className="text-sm font-medium">Email</span>
@@ -61,7 +61,7 @@ const Profile = () => {
           
           <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
             <h3 className="text-lg font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
-              <Award className="w-5 h-5 text-indigo-500" /> Pendidikan
+              <Award className="w-5 h-5 text-blue-500" /> Pendidikan
             </h3>
             <div className="space-y-2">
               <h4 className="font-semibold text-slate-800">Universitas Brawijaya</h4>
@@ -75,7 +75,7 @@ const Profile = () => {
         <div className="md:col-span-2 space-y-6">
           <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
             <h3 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
-              <Briefcase className="w-5 h-5 text-indigo-500" /> Keahlian (Skills)
+              <Briefcase className="w-5 h-5 text-blue-500" /> Keahlian (Skills)
             </h3>
             <div className="flex flex-wrap gap-2 pt-2">
               {member.skills.map(skill => (
@@ -90,7 +90,7 @@ const Profile = () => {
             </h3>
             <div className="space-y-6 pt-2">
               <div className="relative pl-6 border-l-2 border-slate-200 pb-2">
-                <div className="absolute w-3 h-3 bg-indigo-500 rounded-full -left-[7px] top-1.5 ring-4 ring-white"></div>
+                <div className="absolute w-3 h-3 bg-blue-500 rounded-full -left-[7px] top-1.5 ring-4 ring-white"></div>
                 <h4 className="font-bold text-slate-800">{member.badge} Developer</h4>
                 <p className="text-sm text-slate-500 mb-2">JMK CI IMUT Projects &bull; Saat ini</p>
                 <p className="text-slate-600 text-sm leading-relaxed">

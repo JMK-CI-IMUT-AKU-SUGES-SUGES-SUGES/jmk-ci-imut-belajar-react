@@ -8,7 +8,7 @@ const Home = () => {
     <div className="space-y-12 animate-in fade-in duration-500">
       {/* Hero Section */}
       <section className="text-center space-y-4 py-8">
-        <div className="inline-flex items-center justify-center p-4 bg-indigo-100 rounded-full mb-4 text-indigo-600">
+        <div className="inline-flex items-center justify-center p-4 bg-blue-100 rounded-full mb-4 text-blue-600">
           <Users className="w-12 h-12" />
         </div>
         <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
