@@ -24,7 +24,7 @@ export const members = [
     social: {
       github: 'https://github.com/ardhivadwi',
       linkedin: 'https://linkedin.com/in/ardhivadwi',
-      email: 'mailto:ardhiva@example.com'
+      email: 'ardhivaaputran@gmail.com'
     }
   },
   {
