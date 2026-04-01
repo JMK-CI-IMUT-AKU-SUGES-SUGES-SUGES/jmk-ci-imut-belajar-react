@@ -1,0 +1,20 @@
+import React from 'react';
+import Navbar from './Navbar';
+
+const Layout = ({ children }) => {
+  return (
+    <div className="min-h-screen bg-slate-50 flex flex-col font-sans">
+      <Navbar />
+      <main className="flex-1 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {children}
+      </main>
+      <footer className="bg-white border-t border-slate-200 py-6 mt-auto">
+        <div className="max-w-5xl mx-auto px-4 text-center text-slate-500 text-sm">
+          &copy; {new Date().getFullYear()} Kelompok JMK CI IMUT. Dibangun dengan React & Tailwind CSS.
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Layout;
