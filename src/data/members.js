@@ -52,7 +52,7 @@ export const members = [
     social: {
       github: 'https://github.com/samuelalbert',
       linkedin: 'https://linkedin.com/in/samuelalbert',
-      email: 'mailto:samuel@example.com'
+      email: 'samuelghani140790@gmail.com'
     }
   }
 ];
