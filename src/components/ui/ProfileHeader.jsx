@@ -4,7 +4,7 @@ const ProfileHeader = ({ member }) => {
   return (
     <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden mb-6 relative">
       {/* Banner */}
-      <div className="h-48 sm:h-64 bg-slate-800 bg-gradient-to-r from-indigo-600 to-purple-600"></div>
+      <div className="h-48 sm:h-64 bg-slate-800 bg-gradient-to-r from-blue-600 to-sky-500"></div>
       
       {/* Profile Details */}
       <div className="px-6 sm:px-8 pb-8 relative">
@@ -20,7 +20,7 @@ const ProfileHeader = ({ member }) => {
               {member.name}
             </h1>
             <p className="text-lg text-slate-600 font-medium mb-2">
-              NIM: {member.nim} &bull; <span className="text-indigo-600 font-semibold">{member.badge}</span>
+              NIM: {member.nim} &bull; <span className="text-blue-600 font-semibold">{member.badge}</span>
             </p>
             <p className="text-slate-700 max-w-2xl text-base leading-relaxed">
               {member.bio}
