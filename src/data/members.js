@@ -50,8 +50,8 @@ export const members = [
     skills: ['React', 'Express', 'MongoDB', 'AWS'],
     badge: 'Fullstack',
     social: {
-      github: 'https://github.com/samuelalbert',
-      linkedin: 'https://linkedin.com/in/samuelalbert',
+      github: 'https://github.com/samuelghani140790-eng',
+      linkedin: 'https://www.linkedin.com/in/samuel-albert-ghani-32118437a?utm_source=share_via&utm_content=profile&utm_medium=member_android',
       email: 'samuelghani140790@gmail.com'
     }
   }
